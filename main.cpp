@@ -27,7 +27,7 @@ int main() {
     };
 
     // Enemy Array
-    int enemiesAlive{40};
+    int enemiesAlive{50};
 
     // Goblin Enemies
     Enemy goblin1{Vector2{800.f, 300.f},LoadTexture("characters/goblin_idle_spritesheet.png"),LoadTexture("characters/goblin_run_spritesheet.png")};
@@ -50,6 +50,11 @@ int main() {
     Enemy goblin18{Vector2{2500.f, 2000.f},LoadTexture("characters/goblin_idle_spritesheet.png"),LoadTexture("characters/goblin_run_spritesheet.png")};
     Enemy goblin19{Vector2{2600.f, 2100.f},LoadTexture("characters/goblin_idle_spritesheet.png"),LoadTexture("characters/goblin_run_spritesheet.png")};
     Enemy goblin20{Vector2{2700.f, 2200.f},LoadTexture("characters/goblin_idle_spritesheet.png"),LoadTexture("characters/goblin_run_spritesheet.png")};
+    Enemy goblin21{Vector2{2800.f, 2300.f},LoadTexture("characters/goblin_idle_spritesheet.png"),LoadTexture("characters/goblin_run_spritesheet.png")};
+    Enemy goblin22{Vector2{2900.f, 2400.f},LoadTexture("characters/goblin_idle_spritesheet.png"),LoadTexture("characters/goblin_run_spritesheet.png")};
+    Enemy goblin23{Vector2{3000.f, 2500.f},LoadTexture("characters/goblin_idle_spritesheet.png"),LoadTexture("characters/goblin_run_spritesheet.png")};
+    Enemy goblin24{Vector2{3100.f, 2600.f},LoadTexture("characters/goblin_idle_spritesheet.png"),LoadTexture("characters/goblin_run_spritesheet.png")};
+    Enemy goblin25{Vector2{3200.f, 2700.f},LoadTexture("characters/goblin_idle_spritesheet.png"),LoadTexture("characters/goblin_run_spritesheet.png")};
 
     // Slime Enemies
     Enemy slime1 {Vector2{500.f, 700.f},LoadTexture("characters/slime_idle_spritesheet.png"),LoadTexture("characters/slime_run_spritesheet.png")};
@@ -72,12 +77,19 @@ int main() {
     Enemy slime18 {Vector2{2200.f, 2400.f},LoadTexture("characters/slime_idle_spritesheet.png"),LoadTexture("characters/slime_run_spritesheet.png")};
     Enemy slime19 {Vector2{2300.f, 2500.f},LoadTexture("characters/slime_idle_spritesheet.png"),LoadTexture("characters/slime_run_spritesheet.png")};
     Enemy slime20 {Vector2{2400.f, 2600.f},LoadTexture("characters/slime_idle_spritesheet.png"),LoadTexture("characters/slime_run_spritesheet.png")};
+    Enemy slime21 {Vector2{2500.f, 2700.f},LoadTexture("characters/slime_idle_spritesheet.png"),LoadTexture("characters/slime_run_spritesheet.png")};
+    Enemy slime22 {Vector2{2600.f, 2800.f},LoadTexture("characters/slime_idle_spritesheet.png"),LoadTexture("characters/slime_run_spritesheet.png")};
+    Enemy slime23 {Vector2{2700.f, 2900.f},LoadTexture("characters/slime_idle_spritesheet.png"),LoadTexture("characters/slime_run_spritesheet.png")};
+    Enemy slime24 {Vector2{2800.f, 3000.f},LoadTexture("characters/slime_idle_spritesheet.png"),LoadTexture("characters/slime_run_spritesheet.png")};
+    Enemy slime25 {Vector2{2900.f, 3100.f},LoadTexture("characters/slime_idle_spritesheet.png"),LoadTexture("characters/slime_run_spritesheet.png")};
 
     Enemy* enemies[]{
         &goblin1,&goblin2,&goblin3,&goblin4,&goblin5,&goblin6,&goblin7,&goblin8,&goblin9,&goblin10,
         &goblin11,&goblin12,&goblin13,&goblin14,&goblin15,&goblin16,&goblin17,&goblin18,&goblin19,&goblin20,
+        &goblin21,&goblin22,&goblin23,&goblin24,&goblin25,
         &slime1,&slime2,&slime3,&slime4,&slime5,&slime6,&slime7,&slime8,&slime9,&slime10,
-        &slime11,&slime12,&slime13,&slime14,&slime15,&slime16,&slime17,&slime18,&slime19,&slime20
+        &slime11,&slime12,&slime13,&slime14,&slime15,&slime16,&slime17,&slime18,&slime19,&slime20,
+        &slime21,&slime22,&slime23,&slime24,&slime25
     };
 
     // Sets enemy target to player
